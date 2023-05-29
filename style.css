@@ -1,0 +1,43 @@
+*, html, body{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+  color: green !important;
+}
+.landing-wallpaper {
+  height: 400px !important;
+  object-fit: contain !important;
+}
+/* Footer */
+#Facebook:hover {
+  color: rgb(2, 8, 120) !important;
+}
+#Twitter:hover {
+  color: skyblue !important;
+}
+#Instagram:hover {
+  color: purple !important;
+}
+#Github:hover {
+  color: green !important;
+}
+#Youtube:hover {
+  color: red !important;
+}
+#LinkedIn:hover {
+  color: blue !important;
+}
+
+.footer-container a {
+  color: white !important;
+  margin: 5px !important ;
+  padding: 5px !important;
+  font-size: x-large !important;
+}
+.social-icons a {
+  color: white !important;
+  margin: 5px !important ;
+  padding: 5px !important;
+  font-size: x-large !important;
+}
