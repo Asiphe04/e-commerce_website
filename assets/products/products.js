@@ -51,10 +51,10 @@ sale.forEach((data) => {
       <br>  
      
           <div class="product-item col-4 ">
-          <img src="${data.img}" class="img-fluid w-25">
-          <p>${data.name}</p>
-          <h4>${data.priceBefore.strike()}</h4>
-          <h4>${data.priceNow}</h4>
+          <img src="${data.img}" class="img-fluid">
+          <p class= "product-name">${data.name}</p>
+          <h4 class="price">${data.priceBefore.strike()}</h4>
+          <h4 class="price">${data.priceNow}</h4>
            
           </div>`;
 });
@@ -85,9 +85,9 @@ laptops.forEach((data) => {
       <br>  
      
           <div class="product-item col-4 ">
-          <img src="${data.img}" class="img-fluid w-25">
-          <p>${data.name}</p>
-          <h4>${data.price}</h4>
+          <img src="${data.img}" class="img-fluid">
+          <p class= "product-name">${data.name}</p>
+          <h4 class="price">${data.price}</h4>
           
           </div>
           <br/>  
@@ -119,9 +119,9 @@ desktops.forEach((data) => {
   dispDesktops.innerHTML += `
      
           <div class="product-item col-4 ">
-          <img src="${data.img}" class="img-fluid w-25">
-          <p>${data.name}</p>
-          <h4>${data.price}</h4>
+          <img src="${data.img}" class="img-fluid">
+          <p class= "product-name">${data.name}</p>
+          <h4 class="price">${data.price}</h4>
       
           </div>
           <br/>  
@@ -155,9 +155,9 @@ tv.forEach((data) => {
       <br>  
      
           <div class="product-item col-4 ">
-          <img src="${data.img}" class="img-fluid w-25">
-          <p>${data.name}</p>
-          <h4>${data.price}</h4>
+          <img src="${data.img}" class="img-fluid">
+          <p class= "product-name">${data.name}</p>
+          <h4 class="price">${data.price}</h4>
            
           </div>
           <br/>  
@@ -190,9 +190,9 @@ watches.forEach((data) => {
       <br>  
      
           <div class="product-item col-4 ">
-          <img src="${data.img}" class="img-fluid w-25">
-          <p>${data.name}</p>
-          <h4>${data.price}</h4>
+          <img src="${data.img}" class="img-fluid">
+          <p class= "product-name">${data.name}</p>
+          <h4 class="price">${data.price}</h4>
             
           </div>
           <br/>  
@@ -225,9 +225,9 @@ iphones.forEach((data) => {
       <br>  
      
           <div class="product-item col-4 ">
-          <img src="${data.img}" class="img-fluid w-25">
-          <p>${data.name}</p>
-          <h4>${data.price}</h4>
+          <img src="${data.img}" class="img-fluid">
+          <p class= "product-name">${data.name}</p>
+          <h4 class="price">${data.price}</h4>
             
           </div>
           <br/>  
@@ -260,9 +260,9 @@ earphones.forEach((data) => {
       <br>  
      
           <div class="product-item col-4 ">
-          <img src="${data.img}" class="img-fluid w-25">
-          <p>${data.name}</p>
-          <h4>${data.price}</h4>
+          <img src="${data.img}" class="img-fluid">
+          <p class= "product-name">${data.name}</p>
+          <h4 class="price">${data.price}</h4>
            
           </div>
           <br/>  
