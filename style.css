@@ -1,13 +1,39 @@
-*, html, body{
-    margin: 0px;
-    padding: 0px;
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
 }
 h1 {
   color: green !important;
 }
+h3 {
+  color: green !important;
+}
+.partner-img{
+  width: 100px !important;
+  padding: 10px !important;
+}
 .landing-wallpaper {
   height: 400px !important;
   object-fit: contain !important;
+}
+.product-item {
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(130, 127, 127, 0.3);
+  border-radius: 10px;
+  width: 85%;
+  max-width: 450px;
+  min-width: 350px;
+}
+.employees {
+  
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(130, 127, 127, 0.3);
+  border-radius: 10px;
+  width: 85%;
+  max-width: 450px;
+  min-width: 350px;
 }
 /* Footer */
 #Facebook:hover {
