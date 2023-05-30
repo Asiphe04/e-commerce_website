@@ -10,7 +10,7 @@ h1 {
 h3 {
   color: green !important;
 }
-.partner-img{
+.partner-img {
   width: 100px !important;
   padding: 10px !important;
 }
@@ -19,6 +19,13 @@ h3 {
   object-fit: contain !important;
 }
 .product-item {
+  padding: 15px;
+  box-shadow: 0 4px 5px rgba(130, 127, 127, 0.3);
+  border-radius: 10px;
+
+}
+
+.employees {
   padding: 20px;
   box-shadow: 0 4px 10px rgba(130, 127, 127, 0.3);
   border-radius: 10px;
@@ -26,14 +33,9 @@ h3 {
   max-width: 450px;
   min-width: 350px;
 }
-.employees {
-  
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(130, 127, 127, 0.3);
-  border-radius: 10px;
-  width: 85%;
-  max-width: 450px;
-  min-width: 350px;
+.product-link {
+  color: green !important;
+  text-decoration: none;
 }
 /* Footer */
 #Facebook:hover {
