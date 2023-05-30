@@ -55,9 +55,7 @@ sale.forEach((data) => {
           <p>${data.name}</p>
           <h4>${data.priceBefore.strike()}</h4>
           <h4>${data.priceNow}</h4>
-          <button class="bg-black"><a href="${
-            data.name
-          }"class= "product-link" >BUY NOW!</a></button>   
+           
           </div>`;
 });
 // Laptops
@@ -90,7 +88,7 @@ laptops.forEach((data) => {
           <img src="${data.img}" class="img-fluid w-25">
           <p>${data.name}</p>
           <h4>${data.price}</h4>
-          <button class="bg-black"><a href="${data.name}"class= "product-link" >BUY NOW!</a></button>   
+          
           </div>
           <br/>  
           <br/> `;
@@ -124,7 +122,7 @@ desktops.forEach((data) => {
           <img src="${data.img}" class="img-fluid w-25">
           <p>${data.name}</p>
           <h4>${data.price}</h4>
-          <button class="bg-black"><a href="${data.name}"class= "product-link" >BUY NOW!</a></button>   
+      
           </div>
           <br/>  
           <br/>
@@ -160,7 +158,7 @@ tv.forEach((data) => {
           <img src="${data.img}" class="img-fluid w-25">
           <p>${data.name}</p>
           <h4>${data.price}</h4>
-          <button class="bg-black"><a href="${data.name}"class= "product-link" >BUY NOW!</a></button>   
+           
           </div>
           <br/>  
           <br/> `;
@@ -195,7 +193,7 @@ watches.forEach((data) => {
           <img src="${data.img}" class="img-fluid w-25">
           <p>${data.name}</p>
           <h4>${data.price}</h4>
-          <button class="bg-black"><a href="${data.name}"class= "product-link" >BUY NOW!</a></button>   
+            
           </div>
           <br/>  
           <br/> `;
@@ -230,7 +228,7 @@ iphones.forEach((data) => {
           <img src="${data.img}" class="img-fluid w-25">
           <p>${data.name}</p>
           <h4>${data.price}</h4>
-          <button class="bg-black"><a href="${data.name}"class= "product-link" >BUY NOW!</a></button>   
+            
           </div>
           <br/>  
           <br/> `;
@@ -265,7 +263,7 @@ earphones.forEach((data) => {
           <img src="${data.img}" class="img-fluid w-25">
           <p>${data.name}</p>
           <h4>${data.price}</h4>
-          <button class="bg-black"><a href="${data.name}"class= "product-link" >BUY NOW!</a></button>   
+           
           </div>
           <br/>  
           <br/> `;
