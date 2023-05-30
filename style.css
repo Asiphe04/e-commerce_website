@@ -84,15 +84,14 @@ h3 {
     width: 50%;
   }
   .price {
-    font-size: 15px !important;
+    font-size: 10px !important;
   }
   .product-name {
     font-size: 10px !important;
   }
-  .img-fluid{
-     height: 60px !important; 
-     width: 120px !important; 
-  
+  .img-fluid {
+    height: 60px !important;
+    width: 120px !important;
   }
 }
 
